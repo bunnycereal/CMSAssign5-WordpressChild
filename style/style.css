@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #732181;
+    background-color: #1d1c1c;
     padding: 10px 20px;
     color: white;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .cta-button {
-    background-color: #EA1C75;
+    background-color: #732181;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -47,12 +47,15 @@ body {
     background-color: #DE4386;
 }
 
+
+
+
 /*  footer styles start */
 .site-footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #732181;
+    background-color: #1d1c1c;
     color: white;
     padding: 20px;
 }
@@ -113,4 +116,49 @@ body {
 
 .social-icon:hover {
     background-color: #777;
+}
+
+
+
+
+
+/* Container for the sidebar and main content */
+.container {
+    display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px; /* Adjust the width as needed */
+    background-color: #732181; /* Sidebar background color */
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f0f0f0;
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1; /* Takes the remaining space */
+    padding: 20px;
+    background-color: #f4f4f4; /* Background color for main content */
 }
