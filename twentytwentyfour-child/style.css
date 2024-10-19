@@ -7,3 +7,128 @@ Author URI:   [Your URL]
 Template:     twentytwentyfour
 Version:      1
 */
+*/
+
+
+.footer-message{
+    text-align: center;
+   padding: 2%;
+   background-color: #702082; /*change to saskpoly urple*/
+   color: White;
+   height: 15%;
+   width: 70%;
+    margin-left: 15%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   border-radius: 20px;
+   border-style: solid;
+   border-top: 5px;
+   border-bottom: 5px;
+   border-color: black;
+   border-width: 3px;
+   font-size: 24px;
+   max-width: 1280px;
+}
+
+.dottedline{
+    border-style: dashed;
+    border-color: black;
+    max-width: 1280px;
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+/* Initialize SaskPolytech Brand Fonts */
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-XLight_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-XLight_Web.woff')format('woff');
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-XLightItalic_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-XLightItalic_Web.woff')format('woff');
+    font-weight: 200;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-Light_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-Light_Web.woff')format('woff');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-LightItalic_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-LightItalic_Web.woff')format('woff');
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-Book_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-Book_Web.woff')format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-BookItalic_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-BookItalic_Web.woff')format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-Medium_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-Medium_Web.woff')format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-MediumItalic_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-MediumItalic_Web.woff')format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-Bold_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-Bold_Web.woff')format('woff');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-BoldItalic_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-BoldItalic_Web.woff')format('woff');
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-Black_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-Black_Web.woff')format('woff');
+    font-weight: 800;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url('fonts/woff2/GothamSSm-BlackItalic_Web.woff2')format('woff2'),url('fonts/woff/GothamSSm-BlackItalic_Web.woff')format('woff');
+    font-weight: 800;
+    font-style: italic
+}
