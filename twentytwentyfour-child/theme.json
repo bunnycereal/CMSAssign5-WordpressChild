@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "settings": {
+      "custom": {
+        "block_types": [
+          "twentytwentyfour-child/event-date",
+          "twentytwentyfour-child/event-time",
+          "twentytwentyfour-child/event-location",
+          "twentytwentyfour-child/event-room"
+        ]
+      }
+    }
+  }
+  

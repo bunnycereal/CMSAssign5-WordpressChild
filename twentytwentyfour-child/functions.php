@@ -29,4 +29,53 @@ add_action( 'wp_enqueue_scripts', 'mychildtheme_enqueue_styles' );
 
 // Hook footermessage to wp_footer to ensure it runs at the bottom of the page
 add_action( 'wp_footer', 'footermessage' );
+
+//Initialize custom blocks
+function register_custom_blocks() {
+    register_block_type('twentytwentyfour-child/event-date', array(
+        'title' => __('Event Date', 'twentytwentyfour-child'),
+        'description' => __('A block for displaying the event date.', 'twentytwentyfour-child'),
+        'category' => 'common',
+        'icon' => 'calendar',
+        'supports' => array(
+            'html' => false,
+            'align' => true,
+        ),
+    ));
+
+    register_block_type('twentytwentyfour-child/event-time', array(
+        'title' => __('Event Time', 'twentytwentyfour-child'),
+        'description' => __('A block for displaying the event time.', 'twentytwentyfour-child'),
+        'category' => 'common',
+        'icon' => 'clock',
+        'supports' => array(
+            'html' => false,
+            'align' => true,
+        ),
+    ));
+
+    register_block_type('twentytwentyfour-child/event-location', array(
+        'title' => __('Event Location', 'twentytwentyfour-child'),
+        'description' => __('A block for displaying the event location.', 'twentytwentyfour-child'),
+        'category' => 'common',
+        'icon' => 'location',
+        'supports' => array(
+            'html' => false,
+            'align' => true,
+        ),
+    ));
+
+    register_block_type('twentytwentyfour-child/event-room', array(
+        'title' => __('Event Room', 'twentytwentyfour-child'),
+        'description' => __('A block for displaying the event room.', 'twentytwentyfour-child'),
+        'category' => 'common',
+        'icon' => 'building',
+        'supports' => array(
+            'html' => false,
+            'align' => true,
+        ),
+    ));
+}
+add_action('init', 'register_custom_blocks');
 ?>
+

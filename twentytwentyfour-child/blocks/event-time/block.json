@@ -1,0 +1,16 @@
+{
+    "apiVersion": 2,
+    "name": "twentytwentyfour-child/event-time",
+    "title": "Event Time",
+    "category": "widgets",
+    "icon": "calendar-alt",
+    "attributes": {
+      "date": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./editor.css"
+  }
+  
