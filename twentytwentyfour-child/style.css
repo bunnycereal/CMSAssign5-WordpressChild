@@ -197,8 +197,6 @@ p{
 
 /*Footer Message Styles End*/
 
-
-
 /*Single Post Template Styles Begin*/
 
 
@@ -206,13 +204,18 @@ p{
     background-color: #b1b1b1; 
   }
 
-  .post-heading {
+.post-heading {
     font-family: ;
     color: white;
     background-color: #772181; /*Sask Polytech Purple*/
 }
 
+.post-heading p, .post-heading time{
+    color: white
+    }
+
 /*Single Post Template Styles End*/
+
 
 /* Header styles start */
 
