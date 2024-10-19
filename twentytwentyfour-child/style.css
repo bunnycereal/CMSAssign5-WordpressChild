@@ -8,11 +8,160 @@ Template:     twentytwentyfour
 Version:      1
 */
 
+/*Font Initialization Begins*/
+
+/*Gotham Font*/
+
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts/gotham/Gotham-Black.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 900;
+    src: url(fonts/gotham/Gotham-BlackItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/gotham/Gotham-Bold.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 700;
+    src: url(fonts/gotham/Gotham-BoldItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/gotham/Gotham-Book.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 400;
+    src: url(fonts/gotham/Gotham-BookItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 200;
+    src: url(fonts/gotham/Gotham-Light.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 200;
+    src: url(fonts/gotham/Gotham-LightItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/gotham/Gotham-Medium.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 500;
+    src: url(fonts/gotham/Gotham-MediumItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 100;
+    src: url(fonts/gotham/Gotham-Thin.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 100;
+    src: url(fonts/gotham/Gotham-ThinItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 800;
+    src: url(fonts/gotham/Gotham-Ultra.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 800;
+    src: url(fonts/gotham/Gotham-UltraItalic.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 300;
+    src: url(fonts/gotham/Gotham-XLight.otf);
+  }
+  
+  @font-face {
+    font-family: 'Gotham';
+    font-style: italic;
+    font-weight: 300;
+    src: url(fonts/gotham/Gotham-XLightItalic.otf);
+  }
+
+/*Font Initialization Ends*/
+
+
+/*Default Styles Begin*/
+
+/*paragraph*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+/*links*/
+a, a:hover, a:visited {
+    color: #772181
+}
+
+/*headers*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Gotham, Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+/*buttons*/
+:root :where(.wp-element-button, .wp-block-button__link) {
+    background-color: #772181
+    color: white;
+    font-family: var(--wp--preset--font-family--gotham);
+}
+
+/*Default Styles End*/
+
+
+/*Footer Message Styles Begin*/
 
 .footer-message{
     text-align: center;
    padding: 2%;
-   background-color: #702082; /*change to saskpoly urple*/
+   background-color: #772181; /*change to saskpoly purple*/
    color: White;
    height: 15%;
    width: 70%;
@@ -43,7 +192,21 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Single post styles*/
+/*Footer Message Styles End*/
+
+
+
+/*Single Post Template Styles Begin*/
+
 
 .separator {
     background-color: #b1b1b1; 
+  }
+
+  .post-heading {
+    font-family: ;
+    color: white;
+    background-color: #702082; /*change to saskpoly purple*/
+}
+
+/*Single Post Template Styles End*/
