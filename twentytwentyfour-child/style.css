@@ -210,7 +210,7 @@ p{
     background-color: #772181; /*Sask Polytech Purple*/
 }
 
-.post-heading p, .post-heading time{
+.post-heading p, .post-heading time, .post-heading h1{
     color: white
     }
 
